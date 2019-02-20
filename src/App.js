@@ -41,7 +41,7 @@ class App extends Component {
 
   async getData() {
     let resp = await fetch(
-      "https://cwu4ikcv35.execute-api.eu-west-2.amazonaws.com/Test"
+      "https://txclo3byr1.execute-api.eu-west-1.amazonaws.com/moonpig/items"
     );
     let parsed = await resp.json();
     const data = {};

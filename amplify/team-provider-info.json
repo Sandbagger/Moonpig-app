@@ -1,0 +1,14 @@
+{
+    "moonpig": {
+        "awscloudformation": {
+            "AuthRoleName": "moonpig-app-20190220103513-authRole",
+            "UnauthRoleArn": "arn:aws:iam::444508322887:role/moonpig-app-20190220103513-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::444508322887:role/moonpig-app-20190220103513-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "moonpig-app-20190220103513-deployment",
+            "UnauthRoleName": "moonpig-app-20190220103513-unauthRole",
+            "StackName": "moonpig-app-20190220103513",
+            "StackId": "arn:aws:cloudformation:eu-west-1:444508322887:stack/moonpig-app-20190220103513/34b036b0-34fb-11e9-815d-02c681d3a380"
+        }
+    }
+}

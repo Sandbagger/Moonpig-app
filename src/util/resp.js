@@ -1,5 +1,5 @@
 //For local testing
-const resp = {
+const lambdaResp = {
     SearchId:
       "H4sIAAAAAAAEAC2UiZHDMAwDWyL4SFT/jd3CuRnHcRw+IABK5yozuL8b52lK0+obitiXeTURL6KOQrpPdXUy+PTTKiOzFVVxIq50lCXXeasXGSR39He/wd2Vp2JO0IW+XYTJnwl6LRVT5Cn1UrMxmyoydb57jYYuG8B4B9hZT9kxN/pFUedGrvY665WYaygL+NTdaFAJiCBJg0r1JGW5U/a6OOCjGwhx15FDwmaRfqOkmTASBh/1EX1aDCXyKwnIrvAQgB1zRQzpw3wPlqFCJhJuG6ph2CMX0/Ev/w+EM7/OaDurtFzP8ZAEjXRf8QThmYeL3IQxAztxCwkivgZMt0YVj5FQNuCEKjAOe1lMAWMEriNPm5ytT8r45EsriNDm/5MJNpBs+LUfyZf4SFTHJLhC5v9xhRmgAgUpftYk0MeRk/DfqDamker6WLrjXFQDCUYi4H1jPnle5kIF+xCo6WFhnHZAgRDEec8Xw9q3m2iB7tBe7ZdMQSLSoKn9zHTfzwN74Rg8A0M7tjJ/EGaTm/kEual/po2Xp+PX+qYBowISwDZlMRHKyrBtRQOmuoz27GdvHozH3ZGpX3aaRhzDqkHpKSfAe+FSGEPf5iUbR6S8EuuvBlWbzKETks3/IL2eDgK/IJ2D7W0PVGOI/MCvybLW7xuE0chydUwOKsgxSorFu4ZKQ4ubTkcdBmSVUJajoNZWifN5tbzUvJm2HBiDAJJgioW6XnD4wRWMQGtLyNRsDfvLvrEF0MBRgiHlE+DjZMwPmC8d7UJ5nUcY4x2ID28T9oYlHsDf9gNHCD5hVU0eqwf/eGY8r12xNhtHAVSXwYTfcHTw87gSM+JM9gEPsNj5fgef15Pdpyl+w5Q+ExZwOfarXSNvCB/UCQ4on0jcj636I/zaaqaOh4sNODwR6HgcAn5zYB4aPYOR38gIGR//e1vjwxM+J21acuHKSsGtun2socXLPw8P+VnQBQAA",
     NumberOfProducts: 435,
@@ -604,5 +604,5 @@ const resp = {
     Facets: null
   };
   
-  export default resp;
+  export default lambdaResp;
   

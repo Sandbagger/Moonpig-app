@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "moonpigLambda",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "moonpigGateway",
+    "apiName": "moonpigGateway",
+    "functionArns": [
+        {
+            "lambdaFunction": "moonpigLambda"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "moonpig-app-20190220103513-authRole",
+        "unAuthRoleName": "moonpig-app-20190220103513-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "moonpigLambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
